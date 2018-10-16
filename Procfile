@@ -1,1 +1,0 @@
-web: gunicorn pytorch_deploy:wsgi
