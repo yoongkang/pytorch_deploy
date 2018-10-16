@@ -1,4 +1,4 @@
-from torch.functional import F
+from torch import functional as F
 import torch
 import torchtext
 import dill as pickle

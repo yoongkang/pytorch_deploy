@@ -6,10 +6,12 @@ name = "pypi"
 [packages]
 django = "*"
 django-cors-headers = "*"
-torch = "==0.4.0"
-spacy = "==2.0.0"
+torch = "*"
+spacy = "*"
 dill = "*"
 gunicorn = "*"
+torchvision = "*"
+torchtext = "*"
 
 [dev-packages]
 

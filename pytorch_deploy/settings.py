@@ -126,6 +126,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-CORS_ORIGIN_WHITELIST = {
+CORS_ORIGIN_WHITELIST = [
     '.yoongkang.com',
-}
+]
