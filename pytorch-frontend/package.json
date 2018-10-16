@@ -2,7 +2,7 @@
   "name": "pytorch-frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:9000/",
+  "proxy": "http://localhost:8000/",
   "dependencies": {
     "popper": "^1.0.1",
     "radium": "^0.25.0",
