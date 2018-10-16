@@ -7,6 +7,6 @@
 
 [build]
   base    = "pytorch-frontend"
-  publish = "build"
+  publish = "pytorch-frontend/build"
   command = "npm run build"
 
