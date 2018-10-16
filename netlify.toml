@@ -10,3 +10,5 @@
   publish = "pytorch-frontend/build"
   command = "npm run build"
 
+[context.production]
+  environment = { API_BASE_URL = "http://pytorchtoxic.herokuapp.com" }
