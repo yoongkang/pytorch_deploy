@@ -23,9 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '$yj3pg-ygz7=#6co^jkrgnrt#(@1gb_fda_$11ari8*_%$^6c6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.getenv('environment', 'local') != 'production'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '*.yoongkang.com', 'localhost',
+]
 
 
 # Application definition

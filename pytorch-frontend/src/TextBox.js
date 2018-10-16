@@ -40,7 +40,7 @@ export class TextBox extends Component {
           minLength={2}
           cols="37"
           rows="10"
-          debounceTimeout={300}
+          debounceTimeout={600}
           value={this.state.value}
           style={textareaStyle}
           onChange={this.handleChange.bind(this)} autoFocus>
