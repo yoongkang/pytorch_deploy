@@ -12,6 +12,7 @@ dill = "*"
 gunicorn = "*"
 torchvision = "*"
 torchtext = "*"
+nltk = "*"
 
 [dev-packages]
 
