@@ -15,6 +15,7 @@ torchtext = "*"
 nltk = "*"
 
 [dev-packages]
+django-extensions = "*"
 
 [requires]
 python_version = "3.6"
