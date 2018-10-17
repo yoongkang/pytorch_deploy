@@ -26,7 +26,7 @@ SECRET_KEY = '$yj3pg-ygz7=#6co^jkrgnrt#(@1gb_fda_$11ari8*_%$^6c6'
 DEBUG = os.getenv('environment', 'local') != 'production'
 
 ALLOWED_HOSTS = [
-    '*.yoongkang.com', 'localhost',
+    'toxicity-api.yoongkang.com', 'localhost',
 ]
 
 
