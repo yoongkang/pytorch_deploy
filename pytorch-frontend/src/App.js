@@ -33,7 +33,7 @@ class App extends Component {
           <div className="col">
             <strong>What's this?</strong>
             <p>
-              This categorizes comments in terms of toxicity. In addition, it also tells you what "kind" of toxicity it is when you click on the highlighted text.
+              This is an app that detects toxic comments. It also tells you what "kind" of toxicity it is when you click on the highlighted text.
             </p>
             <p>
               The model was trained using Deep Learning on the Jigsaw Toxic Comment Classification dataset on Kaggle.
